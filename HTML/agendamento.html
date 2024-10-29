@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Consulta - Sistema de Clínicas</title>
+    <link rel="stylesheet" href="../css/agendamento.css">
+</head>
+<body>
+    <img src="../images/logo.png" alt="Logo da Clínica">
+    <header>
+        <h1>Agendar Consulta</h1>
+        <nav>
+            <a href="login.html">Logout</a>
+        </nav>
+    </header>
+    <div class="container">
+        <form action="#" method="POST" class="form-box">
+            <h2>Agendar Consulta</h2>
+            <label for="nome-paciente">Nome do Paciente</label>
+            <input type="text" id="nome-paciente" name="nome-paciente" required>
+
+            <label for="data-consulta">Data da Consulta</label>
+            <input type="date" id="data-consulta" name="data-consulta" required>
+
+            <label for="medico">Médico</label>
+            <select id="medico" name="medico" required>
+                <option value="dr-joao">Dr. João</option>
+                <option value="dr-maria">Dra. Maria</option>
+                <option value="dr-lucas">Dr. Lucas</option>
+            </select>
+
+            <button type="submit">Agendar</button>
+        </form>
+    </div>
+</body>
+</html>
