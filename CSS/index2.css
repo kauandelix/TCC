@@ -21,7 +21,7 @@ header {
 }
 
 img {
-    width: 300px; 
+    width: 200px; 
     margin-bottom: 15px;
 }
 
@@ -67,4 +67,7 @@ h2 {
 
 .button:hover {
     background-color: #2da99b; 
+}
+.login {
+    text-align: center; 
 }

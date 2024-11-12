@@ -22,7 +22,7 @@ header {
 
 img {
     align-items: right;
-    width: 300px;
+    width: 200px;
     margin-bottom: 15px;
 }
 
@@ -34,7 +34,7 @@ h1 {
 
 .container {
     max-width: 600px;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 30px;
     background-color: white;
     border-radius: 10px;
@@ -76,4 +76,7 @@ button {
 
 button:hover {
     background-color: #2da99b; 
+}
+.login {
+    text-align: center; 
 }
